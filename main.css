@@ -1,0 +1,48 @@
+a,a:visited{color:#000}
+
+#bottom,#page,#rss,body,h4{background-color:#fff}
+
+#bottom a,#directory a,#rss a,a{text-decoration:none}
+
+body{text-align:center;color:#eee;font-size:9pt;font-family:verdana sans-serif;padding:0;margin:0}
+
+h4,p.subtitle{font-size:10pt;color:#000;text-align:center;padding:0;margin:0}
+
+h4{font-family:monospace;border-bottom:1px #000 solid}
+
+li{list-style:none;padding:3px;margin:0;margin-left:1em;font-weight:700;font-size:8pt}
+
+p.header{text-align:center;color:#000;font-size:40pt;font-family:Lucida Sans Console,monospace;padding:0;margin:0}
+
+p.subtitle{font-weight:600;font-family:cursive}
+
+ul{padding:0 1em;margin:1em}
+
+#bottom{clear:all;width:100%;float:left;font-size:8pt;font-family:serif;color:red;text-align:center}
+
+#bottom a{padding:0;margin:0;color:#000}
+
+#bottom a:hover,#bottom a:visited,a:visited:hover{color:#000}
+
+#directory,#directory a:hover,#directory a:visited,#rss a:hover,a:visited:hover{color:#fff}
+
+#cabinet{width:86%;margin-right:13.5em;margin-left:auto}
+
+#directory{text-align:center;width:100%;padding:0;margin:0;font-weight:700;font-size:14pt;background-color:#000;clear:all;border-top:5px solid #444}
+
+#directory a{padding:0;margin:0;font-size:10pt;color:#fff}
+
+#page{margin:0;padding:0}
+
+#rss{text-align:left;border:1px solid #000;float:right;margin:0 1px 2px;padding-top:0;max-height:33em;width:33%;font-size:1.5em}
+
+#rss a{padding:0;margin:0;color:#202}
+
+#rss a:visited,#rss a:hover{color:#880000}
+
+
+#rss,h4{border:0}
+h4{color:green;font-size:1em;text-align:left;margin-left:1em}
+li{font-size:.9em}
+@media screen and (orientation:portrait){
+#rss{width:90%;float:right;margin-left:auto;margin-right:auto;font-size:2.25em;padding:1em 0 0}}
